@@ -1,0 +1,29 @@
+* {width: 1200px;
+justify-content: center;}
+
+header {
+text-align: center;
+font-size: 500%;
+}
+
+h1  {
+    text-align: center;
+}
+
+ul { 
+    display: grid;
+    grid-template-columns: 600px 600px;
+    grid-template-rows: 300px 300px 300px 300px;
+    justify-content: center;
+}
+
+#background {
+    position: absolute;
+    transform: rotate(90deg);
+    z-index: -1;
+    height: auto;
+    width: 1600px;
+}
+
+#images {height: 300px;
+width: 600px;}
