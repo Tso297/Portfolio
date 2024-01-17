@@ -1,29 +1,89 @@
 * {width: 1200px;
-justify-content: center;}
+justify-content: center;
+align-items: center;
+color: blue;
+margin-left: 0px;
+}
 
 header {
 text-align: center;
 font-size: 500%;
+align-items: center;
+display: grid;
+justify-content: center;
+margin-left: 300px;
 }
 
 h1  {
     text-align: center;
+    align-items: center;
+    display: grid;
+    justify-content: center;
+    margin-left: 300px;
 }
 
 ul { 
     display: grid;
     grid-template-columns: 600px 600px;
-    grid-template-rows: 300px 300px 300px 300px;
+    grid-template-rows: 300px 300px;
     justify-content: center;
+    align-items: center;
+    margin-top: 600px;
+    gap: 400px;
+    list-style-type: none;
 }
 
 #background {
     position: absolute;
     transform: rotate(90deg);
     z-index: -1;
-    height: auto;
+    margin-top: 200px;
     width: 1600px;
+    margin-left: 100px;
 }
 
 #images {height: 300px;
+width: 600px;
+gap: 100px;}
+
+.History {
+    text-align: center;
+    align-items: center;
+    display: grid;
+    justify-content: center;
+    margin-left: 300px;
+}
+
+ul2 {text-align: center;
+list-style-type: none;
+}
+
+.Things {
+    text-align: center;
+}
+
+.Link {
+    margin-left: 300px;
+}
+
+.Favorites {
+    text-align: center;
+    margin-left: 300px;
+}
+
+.container {height: 300px;
 width: 600px;}
+
+#backgroundC {
+    margin-left: 300px;
+}
+
+#images2 {height: 600px;
+    width: 600px;}
+
+.Collage { grid-template-rows: 600px 600px;
+grid-template-columns: 600px 600px;
+display: grid;
+margin-left: 460px;
+margin-bottom: 550px;
+}
